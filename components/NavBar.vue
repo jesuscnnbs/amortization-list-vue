@@ -1,8 +1,8 @@
 <template>
   <div ref="headerRef" :style="styles" class="fixed top-0 w-full z-50">
-    <nav class="mx-auto h-16">
-      <ul
-        class="flex items-center text-sm font-medium text-gray-800 shadow-lg bg-white/90 shadow-gray-800/5 ring-1 backdrop-blur dark:bg-gray-800/90 dark:text-gray-200 dark:ring-white/20 ring-gray-900/5"
+    <nav class="mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl h-16">
+        <ul
+        class="flex items-center my-2 px-3 text-sm font-medium rounded-full  text-gray-800 shadow-lg bg-white/95 shadow-gray-800/5 ring-1 backdrop-blur dark:bg-gray-800/90 dark:text-gray-200 dark:ring-white/20 ring-gray-900/5"
       >
         <li v-for="item in items" :key="item.path">
           <UTooltip
@@ -29,7 +29,7 @@
         </li>
         <li class="flex-1"></li>
         <li>
-          <AppThemeToggle />
+          <ThemeToggle />
         </li>
       </ul>
     </nav>
@@ -42,7 +42,7 @@ const headerRef = ref(null);
 const { styles } = useFixedHeader(headerRef);
 
 const items = [
-  { name: "Home", path: "/", icon: "solar:graph-up-bold" },
+  { name: "Home", path: "/", icon: "solar:graph-up-outline" },
   {
     name: "About",
     path: "/about",
