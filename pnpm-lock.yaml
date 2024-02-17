@@ -17,6 +17,9 @@ dependencies:
   vue-router:
     specifier: ^4.2.5
     version: 4.2.5(vue@3.4.19)
+  vue-use-fixed-header:
+    specifier: ^2.0.3
+    version: 2.0.3
 
 devDependencies:
   '@nuxt/eslint-config':
@@ -7542,6 +7545,10 @@ packages:
     dependencies:
       '@vue/devtools-api': 6.6.1
       vue: 3.4.19(typescript@5.3.3)
+    dev: false
+
+  /vue-use-fixed-header@2.0.3:
+    resolution: {integrity: sha512-kUgO3uBAbnTIv5m5SPGmVelN1yZ/4IwENdlqtja6u/fzLzu6OePExwXVOKVGp+a3oGI0dLQ43g6GgvjdCtwTuw==}
     dev: false
 
   /vue@3.4.19(typescript@5.3.3):

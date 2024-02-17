@@ -1,7 +1,11 @@
 <template>
- <NuxtLayout>
-  <NuxtPage :page-key="route => route.fullPath"/>
- </NuxtLayout>
+  <NuxtLoadingIndicator color="#14b8a6" />
+  <NavBar />
+  <div class="h-32"></div>
+  <UContainer>
+    <NuxtPage />
+  </UContainer>
+  <div class="h-32"></div>
 </template>
 
 
