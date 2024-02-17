@@ -8,11 +8,16 @@
 <style>
 .page-enter-active,
 .page-leave-active {
-  transition: all 0.3s;
+  transition: all 0.2s;
 }
-.page-enter-from,
+
 .page-leave-to {
   opacity: 0;
-  filter: blur(1rem);
+  transform: translateY(-5px);
+}
+
+.page-enter-from {
+  opacity: 0;
+  transform: translateY(5px);
 }
 </style>
