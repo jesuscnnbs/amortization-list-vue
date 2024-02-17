@@ -84,3 +84,5 @@ List of features
 - [ ] List Pagination
 - [ ] Sorting list
 - [ ] Layout
+- [ ] Deploy
+- [x] EsLint
