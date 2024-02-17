@@ -3,14 +3,15 @@
     loading...
   </div>
   <div v-else>
-    {{ amortizations.length }}
+    <UTable :rows="amortizations" />
   </div>
 </template>
 
 <script setup lang="ts">
 
-const { error, pending, data: amortizations } = await useLazyFetch('/api/amortizations')
+const { error, pending, data: amortizations }: {data: any, error: any, pending: any}= await useLazyFetch('/api/amortizations')
 watch(amortizations, (newAmortizations) => {
   console.log('WATCH ListComponent',newAmortizations)
 })
+
 </script>
