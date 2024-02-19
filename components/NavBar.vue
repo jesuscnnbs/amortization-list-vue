@@ -46,7 +46,7 @@ const items = [
   {
     name: "About",
     path: "/about",
-    icon: "solar:folder-with-files-outline",
+    icon: "solar:user-hand-up-broken",
   },
 ];
 </script>
