@@ -43,7 +43,7 @@
         :sort-button="{
           icon: 'i-heroicons-arrow-path-rounded-square',
           color: 'primary',
-          variant: 'outline',
+          variant: 'solid',
           square: false,
         }"
         sort-mode="manual"
