@@ -75,14 +75,12 @@ bun run preview
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
 
 List of features
-- [ ] nuxt server
+- [x] nuxt server
 - [x] Home Page
 - [x] About Page
-- [ ] Navbar
-- [ ] Footer
-- [ ] List Component
-- [ ] List Pagination
-- [ ] Sorting list
-- [ ] Layout
+- [x] Navbar
+- [x] List Component
+- [x] List Pagination
+- [x] Sorting list
 - [ ] Deploy
 - [x] EsLint
